@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>La'paza Cafe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styless.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header> 
+                <div class="nav">
+                  
+                  <ul>
+                    <li><a href="#" ><img src="logo.png" class="logo"></a></li>
+                    <li><a href="#chapter1">Home</a></li>
+                    <li><a href="#chapter3">Menu</a></li>
+                    <li><a href="#chapter2">About</a></li>
+                    <li><a href="#chapter4">Contact</a></li>
+                  </ul>                 
+                </div>
+            </header>
+            <div class="content">
+              <div class="textBox" id="chapter1">
+                <h2>If you’ve got the time<br>We’ve got the <span>Coffee</span></h2>
+                <p>Great coffee and delicious food can make your day a great one.</p>
+                <a href="#chapter2">Learn More</a>
+              </div>
+                <div class="imgBox">
+                  <img src="coffee-2.png" class="coffee">
+                </div>
+            </div>             
+        </section>
+        <!--Menu Section  -->
+          <div id="chapter3">
+            
+            <main>
+              <div class="menu">
+                <h2>MENU</h2>
+              </div>
+             <div class="block">
+              <h3>Coffee</h3>
+              <p class="item">Espresso <span class="right">2.25 / 1.75 / 1.50</span></p>
+              <p class="item">Latte   <span class="right">2.35 / 1.85</span></p>
+              <p class="item">Mocha  <span class="right">2.75 / 2.50 / 2.25</span></p>
+             </div>
+             <div class="block">
+              <h3>Teas and More</h3>
+              <p class="item">Chai<span class="right">4.00 / 3.50 / 2.75</span></p>
+              <p class="item">Hot Cocoa<span class="right">2.25 / 2.00 / 2.75</span></p>
+              <div class="item"><p>Hot Tea<span class="right">2.00</span></p>
+            </div>
+          </main>
+            
+                  
+          </div>
+        
+
+        
+        <!--About Section-->
+        <div id="chapter2" class="imgOpc">
+           <div class="abouttext">
+             <h2>ABOUT</h2>
+           </div>
+            <div class="transparentbox">
+            <p>
+            Coffee means more than just a pleasant beverage to us.<br>
+            We believe that coffee is a culture that connects people and continents.<br>
+            We have made ourselves a mission to spread this culture in the best way possible.<br>
+            </p> 
+            </div>
+        </div>
+        <!--contact Section-->
+      <div id="chapter4">
+          <div class="contact-text">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+          </div>
+            <div class="contact-img">
+              <img src="contact.jpg" alt="contact">
+            </div>
+            <div class="column">  
+              <form action="/action_page.php">
+              <label for="name"> Name</label>
+              <input type="text" id="name" name="firstname" placeholder="Your name..">
+              <label for="mail">E-mail</label>
+              <input type="email" id="email" name="mail" placeholder="Your email adress..">
+              <label for="subject"></label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+             </form>
+            </div>
+      </div>
+    </body>
+</html>
